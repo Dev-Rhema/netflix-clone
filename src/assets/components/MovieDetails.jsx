@@ -86,6 +86,7 @@ export const MovieDetails = () => {
               <Link
                 to={`https://www.youtube.com/watch?v=${trailerId}`}
                 target="_blank"
+                className="backdropBtnLink"
               >
                 <FaPlay />
                 Play
